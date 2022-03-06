@@ -11,8 +11,7 @@ import stripe
 
 
 def checkout(request):
-    """ Check bag has content and render order template """
-    
+    """ docstring s"""
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
